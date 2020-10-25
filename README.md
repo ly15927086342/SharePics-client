@@ -2,10 +2,7 @@
 
 该项目是武大城市化研究室内网使用的`文件共享及图书管理系统`客户端SPA。通过访问网站不同的子页面，切换路由，渲染不同的子组件。App.vue是根组件，下面分四个子组件：登录子组件（Login.vue）、文件子组件（Project.vue）、书籍子组件（Book.vue）以及成员子组件（People.vue）。其中，书籍子组件下又分三个子组件：书架（Bookshelf.vue）、归还（Return.vue）、入库（Storage.vue）。成员子组件引用一个Member组件，但不绑定路由。如图5，每个组件右上角是对应的路由路径。
 
-<div style="text-align: center;">
-	<img src="./static/4.jpg" width="600">
-</div>
-
+<img src="./static/4.jpg" width="600">
 
 ## 技术选型
 - 前端框架：vue-cli3.11.0
@@ -19,48 +16,36 @@
 ## 打赏
 如果你觉得这个开源项目还不错，或者帮助到你，不妨给作者一点鼓励吧~
 
-<div style="text-align:center;">
-	<img src="./static/sponsor.png" width="300" height="300">
-</div>
+<img src="./static/sponsor.png" width="300" height="300">
 
 ## 效果
 ### 登录注册
-<div style="text-align:center;">
-	<img src="./static/1.gif" width="500">
-</div>
+<img src="./static/1.gif" width="500">
+
 ### 新建/删除文件夹
-<div style="text-align:center;">
-	<img src="./static/2.gif" width="500">
-</div>
+<img src="./static/2.gif" width="500">
+
 ### 上传多图
-<div style="text-align:center;">
-	<img src="./static/5.gif" width="500">
-</div>
+<img src="./static/5.gif" width="500">
+
 ### 文件路径切换
-<div style="text-align:center;">
-	<img src="./static/10.gif" width="500">
-</div>
+<img src="./static/10.gif" width="500">
 
 ### 列表/缩略图模式切换
-<div style="text-align:center;">
-	<img src="./static/3.gif" width="500">
-</div>
+<img src="./static/3.gif" width="500">
+
 ### 文件检索
-<div style="text-align:center;">
-	<img src="./static/9.gif" width="500">
-</div>
+<img src="./static/9.gif" width="500">
+
 ### 书籍分页
-<div style="text-align:center;">
-	<img src="./static/6.gif" width="500">
-</div>
+<img src="./static/6.gif" width="500">
+
 ### 书籍借阅/归还
-<div style="text-align:center;">
-	<img src="./static/7.gif" width="500">
-</div>
+<img src="./static/7.gif" width="500">
+
 ### 书籍入库
-<div style="text-align:center;">
-	<img src="./static/8.gif" width="500">
-</div>
+<img src="./static/8.gif" width="500">
+
 ## 问题汇总
 
 |id|problem|solution|
