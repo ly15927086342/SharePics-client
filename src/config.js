@@ -1,0 +1,154 @@
+const ip = 'http://10.6.227.20'
+const port = '3001'
+const notPC = false;
+const role = ''
+const userName = ''
+const city = [{
+	value:'武汉',
+	label:'武汉'
+},{
+	value:'杭州',
+	label:'杭州'
+},{
+	value:'广州',
+	label:'广州'
+},{
+	value:'深圳',
+	label:'深圳'
+},{
+	value:'成都',
+	label:'成都'
+},{
+	value:'上海',
+	label:'上海'
+},{
+	value:'重庆',
+	label:'重庆'
+},{
+	value:'武汉大学',
+	label:'武汉大学'
+},{
+	value:'中国',
+	label:'中国'
+},{
+	value:'其他',
+	label:'其他'
+}];
+
+const tab_options = [{
+	value:'工具类',
+	label:'工具类',
+	children:[{
+		value:'词典',
+		label:'词典'
+	},{
+		value:'年鉴',
+		label:'年鉴'
+	},{
+		value:'其他',
+		label:'其他'
+	}]
+},{
+	value:'专业类',
+	label:'专业类',
+	children:[{
+		value:'数据分析和可视化',
+		label:'数据分析和可视化'
+	},{
+		value:'计算机',
+		label:'计算机'
+	},{
+		value:'地信和制图',
+		label:'地信和制图'
+	},{
+		value:'其他',
+		label:'其他'
+	}]
+},{
+	value:'设计类',
+	label:'设计类',
+	children:[{
+		value:'杂志',
+		label:'杂志'
+	},{
+		value:'地图设计',
+		label:'地图设计'
+	},{
+		value:'信息设计',
+		label:'信息设计'
+	}]
+},{
+	value:'城市文化',
+	label:'城市文化',
+	children:[{
+		value:'诗词',
+		label:'诗词'
+	},{
+		value:'建筑',
+		label:'建筑'
+	},{
+		value:'桥梁',
+		label:'桥梁'
+	},{
+		value:'美食',
+		label:'美食'
+	},{
+		value:'民俗',
+		label:'民俗'
+	},{
+		value:'历史文化',
+		label:'历史文化'
+	},{
+		value:'其他',
+		label:'其他'
+	}]
+},{
+	value:'图集',
+	label:'图集',
+	children:[{
+		value:'地图集',
+		label:'地图集'
+	},{
+		value:'地图',
+		label:'地图'
+	},{
+		value:'手账',
+		label:'手账'
+	}]
+}];
+
+const pos_options = [{
+	value:'427',
+	label:'427书架',
+	children:[]
+},{
+	value:'428',
+	label:'428书架',
+	children:[{
+		value:'1',
+        label:'1层'//城市文化
+    },{
+    	value:'2',
+        label:'2层'//城市文化
+    },{
+    	value:'3',
+        label:'3层'//设计、工具
+    },{
+    	value:'4',
+        label:'4层'//图集
+    },{
+    	value:'5',
+        label:'5层'//专业
+    }]
+}];
+
+export default{
+	ip,
+	port,
+	role,
+	userName,
+	pos_options,
+	tab_options,
+	city,
+	notPC
+}
